@@ -1,0 +1,2 @@
+# spele
+ pārbaudes darbs
