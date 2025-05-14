@@ -1,32 +1,22 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #222;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
 }
 
 #spēles-kontainers {
-    position: relative;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #spēles-canvas {
-    border: 2px solid #444;
-    background-color: #111;
+    border: 2px solid black;
+    background: white;
 }
 
 #spēle-beigusies {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
     display: none;
+    font-size: 24px;
+    color: green;
+    margin-top: 10px;
 }
